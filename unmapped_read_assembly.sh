@@ -13,7 +13,7 @@
 cd $HOME/storage/DNAseq/bovis_AF2122
 mkdir raw_data
 cd !$
-nohup wget -r ftp<server> --ftp_user='<username' --ftp-password='<password' &
+nohup wget -r ftp<server> --ftp_user='<username>' --ftp-password='<password>' &
 
 #Check the md5sum files to insure successful transfer and file integrity
 mkdir -p $HOME/storage/DNAseq/bovis_AF2122/md5check
